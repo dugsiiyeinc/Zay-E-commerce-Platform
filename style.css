@@ -562,8 +562,13 @@ footer b {
     margin-left: 7%;
   }
   .span-and-btn .btn-cata button{
-    margin-left: 6.5rem;
+    margin-left: 8rem;
   }
+  .span-and-btn .cata-span h2{
+    margin-left: 3rem;
+  }
+  
+  
   /* above footer section */
   .above-footer-griding {
     display: grid;
