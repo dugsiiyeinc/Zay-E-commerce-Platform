@@ -67,6 +67,16 @@ button:hover {
   gap: 1.5rem;
   margin-right: 3rem;
   align-items: center;
+  justify-content: center;
+}
+.topnav .search input{
+  border: none;
+  border: solid 1px #59ab6e;
+  border-color: #56ae6c;
+  padding: 4px;
+  margin-top: 5%;
+  font-size: 14px;
+  
 }
 .cart,.user{
   cursor: pointer;
@@ -508,7 +518,7 @@ footer b {
   .topnav {
     position: relative;
     left: -1%;
-    top: 35%;
+    top: 30%;
     width: 100%;
   }
   /* hero section */
