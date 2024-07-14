@@ -672,6 +672,9 @@ h4 {
   /* margin-left: -20px; */
   padding: 10px;
 }
+.right-top .anchortag a:hover{
+  color: #56ae6c;
+}
 .main-cont .right-top .anchortag a {
   text-decoration: none;
   padding: 10px;
