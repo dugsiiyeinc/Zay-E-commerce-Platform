@@ -194,9 +194,7 @@ button:hover {
 .boxes img {
   border-radius: 50%;
 }
-.span-and-btn{
-  margin-left: 4rem;
-}
+
 .span-and-btn .cata-span h2{
   font-size: 1.25rem;
   font-weight: 500;
@@ -215,9 +213,9 @@ button:hover {
     font-size: 1.125rem ;
     font-weight: 500;
     line-height: 1.2;
-    padding: 10px 15px;
+    padding: 10px 16px;
     text-align: center;
-    margin-left: 4rem;
+    margin-left: 5.5rem;
     border-radius: 8%;
     color: #fff;
     margin-top: 5%;
@@ -527,7 +525,7 @@ footer b {
     width: 70%;
     height: auto;
     position: relative;
-    right: -5rem;
+    right: -4rem;
     top: 15%;
   }
   .text {
@@ -563,12 +561,8 @@ footer b {
     grid-template-columns: 1fr;
     margin-left: 7%;
   }
-  
-  .span-and-btn .cata-span h2{
-      text-align: center;
-      align-items: center;
-      margin-right: 3.25rem;
-    
+  .span-and-btn .btn-cata button{
+    margin-left: 6.5rem;
   }
   /* above footer section */
   .above-footer-griding {
