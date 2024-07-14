@@ -71,8 +71,8 @@ button:hover {
 }
 .topnav .search input{
   border: none;
-  border: solid 1px #59ab6e;
-  border-color: #56ae6c;
+  border: solid 2px  #e9eef5;
+  border-color:  #e9eef5;
   padding: 4px;
   margin-top: 5%;
   font-size: 14px;
