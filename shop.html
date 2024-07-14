@@ -8,6 +8,135 @@
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body> 
+    <!-- menus -->
+    <!-- start -->
+     <!-- header -->
+     <header class="disktop-header">
+        <!-- humburger -->
+        <div class="hamburger">
+          <i class="fa-solid fa-bars" data-visible="true"></i>
+          <i class="fa-solid fa-close" data-visible="false"></i>
+        </div>
+        <!-- desktop menu -->
+        <nav class="desktop-menu menus">
+          <!-- LOGO -->
+          <div class="logo">
+            <h1>Zay</h1>
+          </div>
+          <!-- menus -->
+          <ul class="menus-link">
+            <li>
+              <a
+                href="index.html"
+                onMouseOver="this.style.color=' #59ab6e'"
+                onMouseOut="this.style.color='#212529'"
+                >HOME</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                onMouseOver="this.style.color=' #59ab6e'"
+                onMouseOut="this.style.color='#212529'"
+                >ABOUT</a
+              >
+            </li>
+            <li>
+              <a
+                href="shop.html"
+                onMouseOver="this.style.color=' #59ab6e'"
+                onMouseOut="this.style.color='#212529'"
+                >SHOP</a
+              >
+            </li>
+  
+            <li>
+              <a
+                href="#"
+                onMouseOver="this.style.color=' #59ab6e'"
+                onMouseOut="this.style.color='#212529'"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+          <!-- search bar -->
+          <div class="topnav">
+            <div class="search">
+              <input type="text" placeholder="Search.." />
+            </div>
+            <div class="cart">
+              <div class="num-cart"><span>7</span></div>
+              <i class="fa-solid fa-cart-arrow-down"></i>
+            </div>
+            <div class="user">
+              <div class="num-user">
+                <span>+99</span>
+              </div>
+              <i class="fa-solid fa-user"></i>
+            </div>
+          </div>
+        </nav>
+        <!-- mobile -->
+        <!-- LOGO -->
+        <div class="logo-mobile">
+          <h1>Zay</h1>
+        </div>
+        <nav class="mobile-menu menus" data-visible="false">
+          <!-- menus -->
+          <ul class="menus-link">
+            <li>
+              <a
+                href="#home"
+                onMouseOver="this.style.color=' #59ab6e'"
+                onMouseOut="this.style.color='#212529'"
+                >HOME</a
+              >
+            </li>
+            <li>
+              <a
+                href="#about"
+                onMouseOver="this.style.color=' #59ab6e'"
+                onMouseOut="this.style.color='#212529'"
+                >ABOUT</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                onMouseOver="this.style.color=' #59ab6e'"
+                onMouseOut="this.style.color='#212529'"
+                >SHOP</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                onMouseOver="this.style.color=' #59ab6e'"
+                onMouseOut="this.style.color='#212529'"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+          <!-- search bar -->
+          <div class="topnav">
+            <div class="search">
+              <input type="text" placeholder="Search.." />
+            </div>
+            <div class="cart">
+              <div class="num-cart"><span>7</span></div>
+              <i class="fa-solid fa-cart-arrow-down"></i>
+            </div>
+            <div class="user">
+              <div class="num-user">
+                <span>+99</span>
+              </div>
+              <i class="fa-solid fa-user"></i>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- menus -->
+      <!-- end -->
  
     <div class="main-cont"> 
         <div class="Left-side"> 
@@ -304,5 +433,28 @@
     <footer>
         Copyright &copy; 2024 <b>zay</b> | Redesigned by <b>MA24TII</b>
     </footer>
+    <!-- javascript -->
+    <!-- javascript -->
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const mobileMenu = document.querySelector(".mobile-menu");
+        const icons = document.querySelectorAll("i");
+  
+        hamburger.addEventListener("click", function (event) {
+          const isVisible = mobileMenu.getAttribute("data-visible");
+          if (isVisible == "true") {
+            // qari hiding
+            mobileMenu.setAttribute("data-visible", "false");
+            icons[0].setAttribute("data-visible", "true");
+            icons[1].setAttribute("data-visible", "false");
+          } else if (isVisible == "false") {
+            // soo bandhig showing
+            mobileMenu.setAttribute("data-visible", "true");
+            icons[0].setAttribute("data-visible", "false");
+            icons[1].setAttribute("data-visible", "true");
+          }
+        });
+      </script>
+  
     
     </body> 
