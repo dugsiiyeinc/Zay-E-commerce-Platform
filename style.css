@@ -239,6 +239,10 @@ button:hover {
   border-radius: 8%;
   color: #fff;
   margin-top: 5%;
+  border: none;
+}
+.span-and-btn .btn-cata button:hover{
+  background-color: rgba(89, 171, 110, 0.8) !important;
 }
 /* features section */
 .heading-features {
