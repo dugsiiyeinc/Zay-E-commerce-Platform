@@ -75,8 +75,13 @@ button:hover {
   border-color:  #e9eef5;
   padding: 4px;
   margin-top: 5%;
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: 200;
+  outline-color: #e9eef5; 
   
+}
+.topnav .search input placeholder{
+  color: #56ae6c;
 }
 .cart,.user{
   cursor: pointer;
