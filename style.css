@@ -241,8 +241,9 @@ button:hover {
   margin-top: 5%;
   border: none;
 }
-.span-and-btn .btn-cata button :hover{
+.span-and-btn .btn-cata button:hover{
   background-color: rgba(89, 171, 110, 0.8) !important;
+  color: #fff;
 }
 /* features section */
 .heading-features {
