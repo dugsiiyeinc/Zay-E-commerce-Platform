@@ -1031,6 +1031,9 @@ footer b {
     margin-left: -3rem;
     margin-bottom: -1.05rem;
   }
+  .main-cont i{
+    z-index: -11;
+  }
 }
 
 /* _______________CONTACT US_____________ */
