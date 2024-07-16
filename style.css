@@ -633,6 +633,353 @@ footer b {
 }
 
 /* ________________ABOUT_____________ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.abcontainer{
+    margin-inline: 0.5rem;
+    margin-block: 0.2rem;
+    box-sizing: border-box;
+}
+body{
+    font-family: roboto, sans-serif;
+}
+.ababout-info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #55a469;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+
+.abinfo-content{
+    grid-column: 1 / span 2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: white;
+  justify-content: center;
+  margin-left: 4rem;
+}
+
+.abinfo-content h3{
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.abinfo-content p{
+    font-size: 1.125rem !important;
+    font-weight: 300 !important;
+    line-height: 1.5;
+}
+
+.abinfo-img{
+    width: 22.249375rem;
+    height: 22.249375rem;
+vertical-align: middle;
+
+}
+
+.abservice-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    color: rgb(33, 37, 41);
+
+}
+
+.abservice-content h6{
+    font-size: 3rem !important;
+    font-weight: 200 !important ;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.abservice-content p{
+    font-size: 1.125rem !important;
+    font-weight: 300!important;
+    text-align: center;
+    line-height: 1.5;
+     
+}
+
+.abservice-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 5rem;
+    width: 80%;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7rem;
+}
+
+.abservice-info{
+ 
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+
+ .icon-style{
+    font-weight: 900;
+    width: 5rem !important;
+    height: 4rem !important;
+    color: #55a469;
+    font-size: 3rem;
+    line-height: .75em;
+    margin-top: 3rem;
+    margin-left: 1.2rem;
+   
+
+}
+
+.abservice-info h3{
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+   
+}
+
+.abservice-info:hover{
+    color: white !important;
+    background-color: #55a469;
+    
+}
+
+.abservice-info {
+
+}
+
+/* brand & footer */
+
+
+
+/* brands */
+.abbrands{
+    margin-top: 3rem;
+    background-color: #e9eef5;
+    height: 85vh;
+    margin-bottom: 0;
+}
+
+.abbrands-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    color: rgb(33, 37, 41);
+ 
+
+}
+
+.abbrands-content h6{
+    font-size: 3rem !important;
+    font-weight: 200 !important ;
+    line-height: 1.2;
+    text-transform: capitalize;
+    margin-top: 5rem;
+}
+
+.abbrands-content p{
+    font-size: 1.125rem !important;
+    font-weight: 300!important;
+    text-align: center;
+    line-height: 1.5;
+     
+}
+/* brand */
+
+.abbrands-grid{
+    display: flex;
+    height: 10vh;
+    /* margin-top: 2rem; */
+    justify-content: center;
+  
+    gap: 3.5rem;
+    margin-bottom: 0;
+    color: grey;
+    margin-top: 3rem;
+}
+
+.brand-img img{
+height: 3rem;
+width: 6rem;
+margin-top: 2rem;
+margin-bottom: 2rem;
+
+} 
+
+/* above footer section */
+.above-footer-container {
+    width: 100%;
+    padding: 20px;
+  }
+  .above-footer-griding {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    border-bottom: rgba(188, 188, 188, 0.4) solid 1px;
+  }
+  .boxess {
+    margin-top: 10%;
+  }
+  .above-footer {
+    background-color: #212934 !important;
+  }
+  .items-box .fa-solid {
+    float: left;
+    padding-right: 20px;
+  }
+  .items-box {
+    color: #e9eef5;
+    margin-top: 5%;
+    margin-left: 1%;
+    padding-bottom: 6%;
+  }
+  .items-box p {
+    padding-bottom: 5%;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+  }
+  .items-box p:hover {
+    color: #59ab6e;
+    cursor: pointer;
+  }
+  .boxes-title h2 {
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-weight: 200;
+    font-size: 30px !important;
+    border-bottom: rgba(188, 188, 188, 0.4) solid 1px;
+    padding-bottom: 2%;
+  }
+  /* subscribe and social media */
+  .sub-social {
+    width: 100%;
+    padding: 20px;
+  }
+  .sub-social-griding {
+    display: grid;
+    gap: 20%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .social-media i {
+    color: #e9eef5;
+    font-size: 1.7rem;
+    background-color: #212529;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .social-media i:hover {
+    color: #212529;
+    font-size: 1.7rem;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .subscribe {
+    display: flex;
+    align-items: center;
+  }
+  .subscribe .input input {
+    padding: 10px;
+    background-color: transparent;
+    border: 0;
+    border: 1px solid #212934;
+    border-color: #bcbcbc;
+    font-size: 18px;
+    position: relative;
+    left: 6.1rem;
+  }
+  .subscribe .btn-subscribe button {
+    padding: 11px 6px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-size: 18px;
+    background-color: #59ab6e;
+    color: #fff;
+    border: 0;
+  }
+  /* footer */
+  footer {
+    font-family: Roboto, sans-serif;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+    font-size: 13px;
+    background-color: #212529;
+  }
+  footer b {
+    color: #59ab6e;
+    cursor: pointer;
+  }
+
+
+@media(max-width: 796px){
+    .ababout-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       gap: 0.8rem;
+       width: 100%;
+    
+    }
+
+    .abinfo-content{
+        margin-right: 2rem
+    }
+
+    .abinfo-img{
+        width: 32.25rem;
+        height: 32.25rem
+    }
+
+    .abservice-grid{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .abservice-info{
+        width: 100%;
+        padding-top: 1rem !important;
+        padding-left: 1rem !important;
+        margin-right: 5rem;
+    }
+
+    .abservice-content p{
+        font-weight: 300;
+        font-size: 1.125rem; 
+    }
+
+    .abbrands-content p{
+        font-weight: 300;
+        font-size: 1.125rem;
+
+    }
+    }
+
 
 /* ________________SHOP_____________ */
 
@@ -1042,3 +1389,320 @@ footer b {
 }
 
 /* _______________CONTACT US_____________ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.abcontainer{
+   
+    margin-inline: 0.5rem;
+    margin-block: 0.2rem;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: roboto, sans-serif;
+}
+
+
+
+.abcontact-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    color: rgb(33, 37, 41);
+    background-color: #e9eef5 !important;
+    
+
+}
+
+.abcontact-content h3{
+    font-size: 3rem !important;
+    font-weight: 200 !important ;
+    line-height: 1.2;
+    text-transform: capitalize;
+    margin-top: 3rem;
+}
+
+.abcontact-content p{
+    font-family: 1.25rem !important;
+    font-weight: 300!important;
+    text-align: center;
+    line-height: 1.5;
+margin-bottom: 5rem;
+     
+}
+
+.location iframe{
+    width: 100%;
+    min-height: 3rem;
+}
+
+.abform{
+    margin-top: 5rem;
+    width: 32rem !important;
+    height: 7rem;
+    margin-left: 9rem;
+}
+
+.abform.form-box{
+    display: inline;
+    width: 100%;
+    border: none;
+    
+}
+
+.naem{
+    display: flex;
+    flex-direction: row!important;
+    width: 50% !important;
+    gap: 2.3rem;
+}
+
+.form-box .input input{
+    width: 28rem !important;
+    height: 2.58175rem !important;
+    border: 1px solid #e8e8e8;
+    width: 100%;
+    padding-left: 0.25rem;
+    border-radius: 0.3rem;
+    margin-top: 0.5rem;
+  
+   
+}
+
+.form-box .label label{
+    font-size: 1.125rem;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+
+.form-box .input .subject{
+width: 59rem !important;
+}
+
+.form-box .input textarea{
+    width: 59rem !important;
+    height: 8rem !important;
+    margin-top: 0.5rem;
+    border: 1px solid #e8e8e8;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: roboto, sans-serif;
+    text-transform: capitalize;
+    padding-top: 0.3rem;
+    padding-left: 0.4rem;
+    color: #717374;
+}
+
+.form-box .input ::placeholder{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.abform button {
+    position: relative;
+    left: 163%;
+    padding-left: 1.1rem !important;
+    padding-right: 1.1rem !important;
+    border: none;
+    background-color: #55a469;
+    padding-top: 0.7rem !important;
+    padding-bottom: 0.7rem !important;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: white;
+    text-transform: capitalize;
+    margin-top: 1.5rem;
+    border-radius: 0.2rem;
+  
+}
+
+/* above footer section */
+.above-footer-container {
+    width: 100%;
+    padding: 20px;
+   
+  }
+  .above-footer-griding {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    border-bottom: rgba(188, 188, 188, 0.4) solid 1px;
+  }
+  .boxess {
+    margin-top: 10%;
+  }
+  .above-footer {
+    background-color: #212934 !important;
+  }
+  .items-box .fa-solid {
+    float: left;
+    padding-right: 20px;
+  }
+  .items-box {
+    color: #e9eef5;
+    margin-top: 5%;
+    margin-left: 1%;
+    padding-bottom: 6%;
+  }
+  .items-box p {
+    padding-bottom: 5%;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+  }
+  .items-box p:hover {
+    color: #59ab6e;
+    cursor: pointer;
+  }
+  .boxes-title h2 {
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-weight: 200;
+    font-size: 30px !important;
+    border-bottom: rgba(188, 188, 188, 0.4) solid 1px;
+    padding-bottom: 2%;
+  }
+  /* subscribe and social media */
+  .sub-social {
+    width: 100%;
+    padding: 20px;
+  }
+  .sub-social-griding {
+    display: grid;
+    gap: 20%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .social-media i {
+    color: #e9eef5;
+    font-size: 1.7rem;
+    background-color: #212529;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .social-media i:hover {
+    color: #212529;
+    font-size: 1.7rem;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .subscribe {
+    display: flex;
+    align-items: center;
+  }
+  .subscribe .input input {
+    padding: 10px;
+    background-color: transparent;
+    border: 0;
+    border: 1px solid #212934;
+    border-color: #bcbcbc;
+    font-size: 18px;
+    position: relative;
+    left: 6.1rem;
+  }
+  .subscribe .btn-subscribe button {
+    padding: 11px 6px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-size: 18px;
+    background-color: #59ab6e;
+    color: #fff;
+    border: 0;
+  }
+  /* footer */
+  footer {
+    font-family: Roboto, sans-serif;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+    font-size: 13px;
+    background-color: #212529;
+  }
+  footer b {
+    color: #59ab6e;
+    cursor: pointer;
+  }
+
+
+/* laptop mobile */
+
+@media(max-width : 796px){
+    .abcontact-grid{
+        width: 100% !important;
+    }
+
+    .abform .naem{
+  display: flex;
+  flex-direction: column !important;
+  /* width: 59rem !important; */
+  
+  width: 31.3125rem !important;
+
+    }
+
+    .form-box .input .subject{
+        width:88% !important;
+    }
+
+    .form-box .input input{
+        width: 28rem !important;
+        height: 2.58175rem !important;
+    }
+
+    .form-box .input textarea {
+        width: 88% !important;
+        height: 8rem;
+    }
+
+    .abform button{
+       position: relative;
+       left: 66% !important;
+    }
+
+    .above-footer-griding {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0;
+      }
+      .sub-social-griding {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+      .subscribe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 5%;
+      }
+      .subscribe .input input {
+        position: relative;
+        left: 0;
+      }
+      .subscribe .btn-subscribe button {
+        position: relative;
+        margin-left: 0;
+        border-radius: 5%;
+        margin-top: 2%;
+      }
+    
+      .btn-subscribe{
+        margin-right: -4.3rem;
+        margin-top: -1.7rem;
+    
+      }
+      .input{
+        margin: -1rem;
+        margin-left: -3rem;
+        margin-bottom: -1.05rem;
+        
+      } 
+}
