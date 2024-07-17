@@ -311,9 +311,6 @@ button:hover {
   padding-bottom: 10%;
 }
 
-<<<<<<< HEAD
- 
-=======
 /* above footer section */
 .above-footer-container {
   width: 100%;
@@ -425,7 +422,6 @@ footer b {
   color: #59ab6e;
   cursor: pointer;
 }
->>>>>>> 64e9517a7a3bb50b21998d67f1745ce8986ce575
 
 /* mobile menus */
 .mobile-menu {
@@ -936,7 +932,7 @@ h4 {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
   font-size: 18px;
-  background-color: #87f7a3;
+  background-color: #59ab6e;
   color: #fff;
   border: 0;
 }
