@@ -647,6 +647,7 @@ footer b {
   color: white;
   justify-content: center;
   margin-left: 4rem;
+  margin-top: 8rem;
 }
 
 .abinfo-content h3 {
@@ -720,6 +721,7 @@ footer b {
   line-height: 0.75em;
   margin-top: 3rem;
   margin-left: 1.2rem;
+  z-index: -11;
 }
 
 .abservice-info h3 {
@@ -731,10 +733,17 @@ footer b {
   margin-bottom: 3rem;
 }
 
-.abservice-info:hover {
+.abservice-info:hover,
+.abservice-info:hover h3,
+.abservice-info:hover .icon-style {
   color: white !important;
   background-color: #55a469;
+  z-index: 11;
 }
+
+
+
+
 
 
 /* brand & footer */
@@ -815,6 +824,7 @@ footer b {
   .abservice-grid {
     display: flex;
     flex-direction: column;
+    margin: 5.5rem;
   }
   .abservice-info {
     width: 100%;
