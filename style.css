@@ -736,8 +736,6 @@ footer b {
   background-color: #55a469;
 }
 
-.abservice-info {
-}
 
 /* brand & footer */
 
@@ -790,6 +788,10 @@ footer b {
   width: 6rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+.possioning{
+  position: relative;
+  top: 22rem;
 }
 
 @media (max-width: 796px) {
