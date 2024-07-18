@@ -69,22 +69,22 @@ button:hover {
   align-items: center;
   justify-content: center;
 }
-.topnav .search input{
+.topnav .search input {
   border: none;
-  border: solid 2px  #e9eef5;
-  border-color:  #e9eef5;
+  border: solid 2px #e9eef5;
+  border-color: #e9eef5;
   padding: 4px;
   margin-top: 5%;
   font-size: 15px;
   font-weight: 200;
   border-radius: 0.5rem;
-  outline-color: #e9eef5; 
-  
+  outline-color: #e9eef5;
 }
-.topnav .search input placeholder{
+.topnav .search input placeholder {
   color: #56ae6c;
 }
-.cart,.user{
+.cart,
+.user {
   cursor: pointer;
 }
 .num-user {
@@ -95,7 +95,6 @@ button:hover {
   position: relative;
   top: 0.5rem;
   left: 0.4rem;
-  
 }
 .num-cart {
   background-color: #e9eef5;
@@ -241,7 +240,7 @@ button:hover {
   margin-top: 5%;
   border: none;
 }
-.span-and-btn .btn-cata button:hover{
+.span-and-btn .btn-cata button:hover {
   background-color: rgba(89, 171, 110, 0.8) !important;
   color: #fff;
 }
@@ -333,7 +332,7 @@ button:hover {
   padding-right: 20px;
 }
 .items-box {
-  color:  #59ab6e;
+  color: #59ab6e;
   margin-top: 5%;
   margin-left: 1%;
   padding-bottom: 6%;
@@ -630,10 +629,9 @@ footer b {
 
 /* ________________ABOUT_____________ */
 
-
-.ababout-info{
+.ababout-info {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   background-color: #55a469;
   height: 100vh;
   align-items: center;
@@ -641,63 +639,60 @@ footer b {
   margin-bottom: 6rem;
 }
 
-.abinfo-content{
+.abinfo-content {
   grid-column: 1 / span 2;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   color: white;
-justify-content: center;
-margin-left: 4rem;
+  justify-content: center;
+  margin-left: 4rem;
 }
 
-.abinfo-content h3{
+.abinfo-content h3 {
   font-size: 2.5rem;
   font-weight: 500;
   line-height: 1.2;
   text-transform: capitalize;
 }
 
-.abinfo-content p{
+.abinfo-content p {
   font-size: 1.125rem !important;
   font-weight: 300 !important;
   line-height: 1.5;
 }
 
-.abinfo-img{
+.abinfo-img {
   width: 22.249375rem;
   height: 22.249375rem;
-vertical-align: middle;
-
+  vertical-align: middle;
 }
 
-.abservice-content{
+.abservice-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.8rem;
   color: rgb(33, 37, 41);
-
 }
 
-.abservice-content h6{
+.abservice-content h6 {
   font-size: 3rem !important;
   font-weight: 200 !important ;
   line-height: 1.2;
   text-transform: capitalize;
 }
 
-.abservice-content p{
+.abservice-content p {
   font-size: 1.125rem !important;
-  font-weight: 300!important;
+  font-weight: 300 !important;
   text-align: center;
   line-height: 1.5;
-   
 }
 
-.abservice-grid{
+.abservice-grid {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   margin-top: 5rem;
   width: 80%;
   gap: 2rem;
@@ -706,74 +701,63 @@ vertical-align: middle;
   margin-left: 7rem;
 }
 
-.abservice-info{
-
+.abservice-info {
   display: flex;
   flex-direction: column;
 
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
 }
 
-
-.icon-style{
+.icon-style {
   font-weight: 900;
   width: 5rem !important;
   height: 4rem !important;
   color: #55a469;
   font-size: 3rem;
-  line-height: .75em;
+  line-height: 0.75em;
   margin-top: 3rem;
   margin-left: 1.2rem;
- 
-
 }
 
-.abservice-info h3{
+.abservice-info h3 {
   font-weight: 500;
   text-transform: capitalize;
   font-size: 1.25rem;
   line-height: 1.2;
   margin-top: 1.5rem;
   margin-bottom: 3rem;
- 
 }
 
-.abservice-info:hover{
+.abservice-info:hover {
   color: white !important;
   background-color: #55a469;
-  
 }
 
 .abservice-info {
-
 }
 
 /* brand & footer */
 
-
-
 /* brands */
-.abbrands{
+.abbrands {
   margin-top: 3rem;
   background-color: #e9eef5;
   height: 85vh;
   margin-bottom: 0;
 }
 
-.abbrands-content{
+.abbrands-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.8rem;
   color: rgb(33, 37, 41);
-
-
 }
 
-.abbrands-content h6{
+.abbrands-content h6 {
   font-size: 3rem !important;
   font-weight: 200 !important ;
   line-height: 1.2;
@@ -781,16 +765,15 @@ vertical-align: middle;
   margin-top: 5rem;
 }
 
-.abbrands-content p{
+.abbrands-content p {
   font-size: 1.125rem !important;
-  font-weight: 300!important;
+  font-weight: 300 !important;
   text-align: center;
   line-height: 1.5;
-   
 }
 /* brand */
 
-.abbrands-grid{
+.abbrands-grid {
   display: flex;
   height: 10vh;
   /* margin-top: 2rem; */
@@ -802,57 +785,52 @@ vertical-align: middle;
   margin-top: 3rem;
 }
 
-.brand-img img{
-height: 3rem;
-width: 6rem;
-margin-top: 2rem;
-margin-bottom: 2rem;
+.brand-img img {
+  height: 3rem;
+  width: 6rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
-} 
-
-@media(max-width: 796px){
-  .ababout-info{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-     gap: 0.8rem;
-     width: 100%;
-  
+@media (max-width: 796px) {
+  .ababout-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+    width: 100%;
   }
 
-  .abinfo-content{
-      margin-right: 2rem
+  .abinfo-content {
+    margin-right: 2rem;
   }
 
-  .abinfo-img{
-      width: 32.25rem;
-      height: 32.25rem
+  .abinfo-img {
+    width: 32.25rem;
+    height: 32.25rem;
   }
 
-  .abservice-grid{
-      display: flex;
-      flex-direction: column;
-     
+  .abservice-grid {
+    display: flex;
+    flex-direction: column;
   }
-  .abservice-info{
-      width: 100%;
-      padding-top: 1rem !important;
-      padding-left: 1rem !important;
-      margin-right: 5rem;
-  }
-
-  .abservice-content p{
-      font-weight: 300;
-      font-size: 1.125rem; 
+  .abservice-info {
+    width: 100%;
+    padding-top: 1rem !important;
+    padding-left: 1rem !important;
+    margin-right: 5rem;
   }
 
-  .abbrands-content p{
-      font-weight: 300;
-      font-size: 1.125rem;
-
-  }
+  .abservice-content p {
+    font-weight: 300;
+    font-size: 1.125rem;
   }
 
+  .abbrands-content p {
+    font-weight: 300;
+    font-size: 1.125rem;
+  }
+}
 
 /* ________________SHOP_____________ */
 
@@ -907,7 +885,7 @@ h4 {
   /* margin-left: -20px; */
   padding: 10px;
 }
-.right-top .anchortag a:hover{
+.right-top .anchortag a:hover {
   color: #56ae6c;
 }
 .main-cont .right-top .anchortag a {
@@ -1256,26 +1234,23 @@ footer b {
     margin-left: -3rem;
     margin-bottom: -1.05rem;
   }
-  .main-cont i{
+  .main-cont i {
     z-index: -11;
   }
 }
 
 /* _______________CONTACT US_____________ */
 
-
-.abcontact-content{
+.abcontact-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.8rem;
   color: rgb(33, 37, 41);
   background-color: #e9eef5 !important;
-  
-
 }
 
-.abcontact-content h3{
+.abcontact-content h3 {
   font-size: 3rem !important;
   font-weight: 200 !important ;
   line-height: 1.2;
@@ -1283,42 +1258,40 @@ footer b {
   margin-top: 3rem;
 }
 
-.abcontact-content p{
+.abcontact-content p {
   font-family: 1.25rem !important;
-  font-weight: 300!important;
+  font-weight: 300 !important;
   text-align: center;
   line-height: 1.5;
-margin-bottom: 5rem;
-   
+  margin-bottom: 5rem;
 }
 
-.location iframe{
+.location iframe {
   width: 100%;
   min-height: 3rem;
 }
 
-.abform{
+.abform {
   margin-top: 5rem;
   width: 32rem !important;
   height: 7rem;
   margin-left: 9rem;
 }
 
-.abform.form-box{
+.abform.form-box {
   display: inline;
   width: 100%;
   border: none;
-  
 }
 
-.naem{
+.naem {
   display: flex;
-  flex-direction: row!important;
+  flex-direction: row !important;
   width: 50% !important;
   gap: 2.3rem;
 }
 
-.form-box .input input{
+.form-box .input input {
   width: 28rem !important;
   height: 2.58175rem !important;
   border: 1px solid #e8e8e8;
@@ -1326,22 +1299,20 @@ margin-bottom: 5rem;
   padding-left: 0.25rem;
   border-radius: 0.3rem;
   margin-top: 0.5rem;
-
- 
 }
 
-.form-box .label label{
+.form-box .label label {
   font-size: 1.125rem;
   font-weight: 300;
   margin-bottom: 0.5rem;
   text-transform: capitalize;
 }
 
-.form-box .input .subject{
-width: 59rem !important;
+.form-box .input .subject {
+  width: 59rem !important;
 }
 
-.form-box .input textarea{
+.form-box .input textarea {
   width: 59rem !important;
   height: 8rem !important;
   margin-top: 0.5rem;
@@ -1355,7 +1326,7 @@ width: 59rem !important;
   color: #717374;
 }
 
-.form-box .input ::placeholder{
+.form-box .input ::placeholder {
   font-size: 1rem;
   font-weight: 300;
 }
@@ -1375,40 +1346,39 @@ width: 59rem !important;
   text-transform: capitalize;
   margin-top: 1.5rem;
   border-radius: 0.2rem;
-
 }
 
 /* laptop mobile */
 
-@media(max-width : 796px){
-  .abcontact-grid{
-      width: 100% !important;
+@media (max-width: 796px) {
+  .abcontact-grid {
+    width: 100% !important;
   }
 
-  .abform .naem{
-display: flex;
-flex-direction: column !important;
-/* width: 59rem !important; */
+  .abform .naem {
+    display: flex;
+    flex-direction: column !important;
+    /* width: 59rem !important; */
 
-width: 31.3125rem !important;
-
+    width: 31.3125rem !important;
   }
 
-  .form-box .input .subject{
-      width:88% !important;
+  .form-box .input .subject {
+    width: 88% !important;
   }
 
-  .form-box .input input{
-      width: 28rem !important;
-      height: 2.58175rem !important;
+  .form-box .input input {
+    width: 28rem !important;
+    height: 2.58175rem !important;
   }
 
   .form-box .input textarea {
-      width: 88% !important;
-      height: 8rem;
+    width: 88% !important;
+    height: 8rem;
   }
 
-  .abform button{
-     position: relative;
-     left: 66% !important;
+  .abform button {
+    position: relative;
+    left: 66% !important;
   }
+}
