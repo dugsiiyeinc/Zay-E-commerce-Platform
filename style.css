@@ -300,6 +300,7 @@ button:hover {
 }
 .stars {
   color: #bcbcbc;
+  z-index: 11;
 }
 .last-span,
 .price {
@@ -582,7 +583,7 @@ footer b {
   .features-griding {
     display: grid;
     grid-template-columns: 1fr;
-    margin-left: 7%;
+
   }
   .span-and-btn .btn-cata button {
     margin-left: 8.5rem;
@@ -1283,11 +1284,8 @@ footer b {
   min-height: 3rem;
 }
 
-.abfoot{
-  margin-top: 35rem;
-}
 .abform {
-  margin-top: 5rem;
+  margin-top: 8rem;
   width: 100%; 
   max-width: 32rem; 
   height: auto; 
@@ -1316,6 +1314,7 @@ footer b {
   border-radius: 0.3rem;
   margin-top: 0.5rem;
   outline-color: #55a469;
+  margin-bottom: 1rem;
 }
 
 .form-box .label label {
