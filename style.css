@@ -1303,7 +1303,7 @@ footer b {
   gap: 2.3rem;
 }
 
-.form-box .input input {
+.form-box .input-class input {
   width: 28rem !important;
   height: 2.58175rem !important;
   border: 1px solid #e8e8e8;
@@ -1320,11 +1320,11 @@ footer b {
   text-transform: capitalize;
 }
 
-.form-box .input .subject {
+.form-box .input-class .subject {
   width: 59rem !important;
 }
 
-.form-box .input textarea {
+.form-box .input-class textarea {
   width: 59rem !important;
   height: 8rem !important;
   margin-top: 0.5rem;
@@ -1338,7 +1338,7 @@ footer b {
   color: #717374;
 }
 
-.form-box .input ::placeholder {
+.form-box .input-class ::placeholder {
   font-size: 1rem;
   font-weight: 300;
 }
@@ -1360,6 +1360,10 @@ footer b {
   border-radius: 0.2rem;
 }
 
+.abfoot{
+  margin-top: 35rem;
+}
+
 /* laptop mobile */
 
 @media (max-width: 796px) {
@@ -1375,18 +1379,18 @@ footer b {
     width: 31.3125rem !important;
   }
 
-  .form-box .input .subject {
+  .form-box .input-class .subject {
     width: 88% !important;
   }
 
-  .form-box .input input {
+  .form-box .input-class input {
     width: 28rem !important;
     height: 2.58175rem !important;
   }
 
-  .form-box .input textarea {
+  .form-box .input-class textarea {
     width: 88% !important;
-    height: 8rem;
+    height: 10rem;
   }
 
   .abform button {
