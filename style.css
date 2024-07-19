@@ -615,7 +615,7 @@ footer b {
   .subscribe .btn-subscribe button {
     position: relative;
     border-radius: 5%;
-    left: -0.5rem;
+    left: 1rem;
   }
   .btn-subscribe {
     margin-right: -4.3rem;
