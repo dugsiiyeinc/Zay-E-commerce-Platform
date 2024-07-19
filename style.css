@@ -1311,6 +1311,7 @@ footer b {
   padding-left: 0.25rem;
   border-radius: 0.3rem;
   margin-top: 0.5rem;
+  outline-color: #55a469;
 }
 
 .form-box .label label {
@@ -1322,6 +1323,7 @@ footer b {
 
 .form-box .input .subject {
   width: 59rem !important;
+  outline-color: #55a469;
 }
 
 .form-box .input textarea {
@@ -1336,6 +1338,7 @@ footer b {
   padding-top: 0.3rem;
   padding-left: 0.4rem;
   color: #717374;
+  outline-color: #55a469;
 }
 
 .form-box .input ::placeholder {
@@ -1366,7 +1369,15 @@ footer b {
   .abcontact-grid {
     width: 100% !important;
   }
-
+form{
+  margin-left: -9%;
+}
+.form-box .label{
+  padding-bottom: 5%;
+}
+.abform label{
+  margin-left: -9%;
+}
   .abform .naem {
     display: flex;
     flex-direction: column !important;
@@ -1376,21 +1387,25 @@ footer b {
   }
 
   .form-box .input .subject {
-    width: 88% !important;
+    width: 47% !important;
+    outline-color: #55a469;
   }
 
   .form-box .input input {
-    width: 28rem !important;
+    width: 18rem !important;
     height: 2.58175rem !important;
+    outline-color: #55a469;
   }
 
   .form-box .input textarea {
-    width: 88% !important;
+    width: 47% !important;
     height: 8rem;
+    outline-color: #55a469;
   }
 
   .abform button {
     position: relative;
-    left: 66% !important;
+    left: 23% !important;
+
   }
 }
