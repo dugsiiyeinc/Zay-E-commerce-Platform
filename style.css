@@ -1283,34 +1283,39 @@ footer b {
   min-height: 3rem;
 }
 
+.abfoot{
+  margin-top: 35rem;
+}
 .abform {
   margin-top: 5rem;
-  width: 32rem !important;
-  height: 7rem;
-  margin-left: 9rem;
+  width: 100%; 
+  max-width: 32rem; 
+  height: auto; 
+  margin-left: auto;
+  margin-right: auto; 
 }
 
-.abform.form-box {
-  display: inline;
+.abform .form-box {
+  display: inline-block; 
   width: 100%;
   border: none;
 }
 
 .naem {
   display: flex;
-  flex-direction: row !important;
-  width: 50% !important;
+  flex-direction: row;
+  width: 100%; 
   gap: 2.3rem;
 }
 
 .form-box .input-class input {
-  width: 28rem !important;
-  height: 2.58175rem !important;
+  width: 100%; 
+  height: 2.58175rem;
   border: 1px solid #e8e8e8;
-  width: 100%;
   padding-left: 0.25rem;
   border-radius: 0.3rem;
   margin-top: 0.5rem;
+  outline-color: #55a469;
 }
 
 .form-box .label label {
@@ -1321,12 +1326,13 @@ footer b {
 }
 
 .form-box .input-class .subject {
-  width: 59rem !important;
+  width: 100%;
+  outline-color: #55a469;
 }
 
 .form-box .input-class textarea {
-  width: 59rem !important;
-  height: 8rem !important;
+  width: 100%; 
+  height: 8rem;
   margin-top: 0.5rem;
   border: 1px solid #e8e8e8;
   font-size: 1rem;
@@ -1336,6 +1342,7 @@ footer b {
   padding-top: 0.3rem;
   padding-left: 0.4rem;
   color: #717374;
+  outline-color: #55a469;
 }
 
 .form-box .input-class ::placeholder {
@@ -1344,57 +1351,38 @@ footer b {
 }
 
 .abform button {
-  position: relative;
-  left: 163%;
-  padding-left: 1.1rem !important;
-  padding-right: 1.1rem !important;
+  display: block; 
+  margin: 1.5rem auto 0 auto; 
+  padding: 0.7rem 1.1rem;
   border: none;
   background-color: #55a469;
-  padding-top: 0.7rem !important;
-  padding-bottom: 0.7rem !important;
   font-size: 1.25rem;
   font-weight: 400;
   color: white;
   text-transform: capitalize;
-  margin-top: 1.5rem;
   border-radius: 0.2rem;
 }
 
-.abfoot{
-  margin-top: 35rem;
+.abfoot {
+  margin-top: 2rem;
 }
 
-/* laptop mobile */
-
-@media (max-width: 796px) {
+/* Mobile and tablet styling */
+@media (max-width: 768px) {
   .abcontact-grid {
-    width: 100% !important;
+    width: 100%;
   }
-
-  .abform .naem {
-    display: flex;
-    flex-direction: column !important;
-    /* width: 59rem !important; */
-
-    width: 31.3125rem !important;
+  .abform {
+    margin: 0;
+    padding: 10px 5%;
   }
-
-  .form-box .input-class .subject {
-    width: 88% !important;
+  form {
+    margin: 0;
+    padding: 10px 5%;
+    width: 100%;
   }
-
-  .form-box .input-class input {
-    width: 28rem !important;
-    height: 2.58175rem !important;
-  }
-
-  .form-box .input-class textarea {
-    width: 88% !important;
-    height: 10rem;
-  }
-
-  .abform button {
-    position: relative;
-    left: 66% !important;
+  .form-box .input-class {
+    width: 100%; 
   }
 }
+
