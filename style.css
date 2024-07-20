@@ -311,117 +311,6 @@ button:hover {
   padding-bottom: 10%;
 }
 
-/* above footer section */
-.above-footer-container {
-  width: 100%;
-  padding: 20px;
-}
-.above-footer-griding {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 5rem;
-  border-bottom: rgba(188, 188, 188, 0.4) solid 1px;
-}
-.boxess {
-  margin-top: 10%;
-}
-.above-footer {
-  background-color: #212934 !important;
-}
-.items-box .fa-solid {
-  float: left;
-  padding-right: 20px;
-}
-.items-box {
-  color: #59ab6e;
-  margin-top: 5%;
-  margin-left: 1%;
-  padding-bottom: 6%;
-}
-.items-box p {
-  padding-bottom: 5%;
-  font-family: "Roboto", sans-serif;
-  font-size: 18px !important;
-  font-weight: 300 !important;
-}
-.items-box p:hover {
-  color: #59ab6e;
-  cursor: pointer;
-}
-.boxes-title h2 {
-  color: #ffffff;
-  font-family: Roboto, sans-serif;
-  font-weight: 200;
-  font-size: 30px !important;
-  border-bottom: rgba(188, 188, 188, 0.4) solid 1px;
-  padding-bottom: 2%;
-}
-/* subscribe and social media */
-.sub-social {
-  width: 100%;
-  padding: 20px;
-}
-.sub-social-griding {
-  display: grid;
-  gap: 20%;
-  grid-template-columns: repeat(2, 1fr);
-}
-.social-media i {
-  color: #e9eef5;
-  font-size: 1.7rem;
-  background-color: #212529;
-  padding: 10px;
-  border-radius: 50%;
-}
-.social-media i:hover {
-  color: #212529;
-  font-size: 1.7rem;
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 50%;
-}
-.subscribe {
-  display: flex;
-  align-items: center;
-}
-.subscribe .input input {
-  padding: 10px;
-  background-color: transparent;
-  border: 0;
-  border: 1px solid #212934;
-  border-color: #bcbcbc;
-  font-size: 18px;
-  position: relative;
-  left: 6.1rem;
-}
-.subscribe .btn-subscribe button {
-  padding: 11px 6px;
-  border-radius: 5px;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  font-size: 18px;
-  background-color: #59ab6e;
-  color: #fff;
-  border: 0;
-}
-.btn-subscribe {
-  margin-left: 0.27rem;
-}
-/* footer */
-footer {
-  font-family: Roboto, sans-serif;
-  font-size: 18px !important;
-  font-weight: 300 !important;
-  text-align: center;
-  padding: 30px;
-  color: #fff;
-  font-size: 13px;
-  background-color: #212529;
-}
-footer b {
-  color: #59ab6e;
-  cursor: pointer;
-}
 
 /* mobile menus */
 .mobile-menu {
@@ -590,40 +479,6 @@ footer b {
   }
   .span-and-btn .cata-span h2 {
     margin-left: 3.1rem;
-  }
-
-  /* above footer section */
-  .above-footer-griding {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0;
-  }
-  .sub-social-griding {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .subscribe {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 5%;
-  }
-  .subscribe .input input {
-    position: relative;
-    left: 0;
-  }
-  .subscribe .btn-subscribe button {
-    position: relative;
-    border-radius: 5%;
-    left: 1rem;
-  }
-  .btn-subscribe {
-    margin-right: -4.3rem;
-    margin-top: -1.7rem;
-  }
-  .input {
-    margin: -1rem;
-    margin-left: -3rem;
   }
 }
 
@@ -1139,30 +994,31 @@ select{
 .subscribe {
   display: flex;
   align-items: center;
+  flex-wrap: nowrap;
 }
+
 .subscribe .input input {
   padding: 10px;
   background-color: transparent;
-  border: 0;
   border: 1px solid #212934;
   border-color: #bcbcbc;
   font-size: 18px;
-  position: relative;
-  left: 6.1rem;
+  flex: 1;
 }
+
 .subscribe .btn-subscribe button {
   padding: 11px 6px;
   border-radius: 5px;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
   font-size: 18px;
   background-color: #59ab6e;
   color: #fff;
   border: 0;
+  cursor: pointer;
 }
-.btn-subscribe {
-  margin-left: 0.27rem;
-}
+
+
 /* footer */
 footer {
   font-family: Roboto, sans-serif;
@@ -1240,30 +1096,22 @@ footer b {
     grid-template-columns: 1fr;
   }
   .subscribe {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 5%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 10%;
   }
   .subscribe .input input {
-    position: relative;
-    left: 0;
+    width: 100%;
+    margin-right: 5px;
   }
   .subscribe .btn-subscribe button {
-    position: relative;
-    margin-left: 0;
-    border-radius: 5%;
-    margin-top: 2%;
-  }
+    width: 100%;
 
-  .btn-subscribe {
-    margin-right: -2.9rem;
-    margin-top: -1.7rem;
   }
-  .input {
-    margin: -1rem;
-    margin-left: -3rem;
-    margin-bottom: -1.05rem;
+  .btn-subscribe {
+    margin-left: 0;
   }
   .main-cont i {
     z-index: -11;
