@@ -959,7 +959,6 @@ select{
 }
 
 .card {
-  border: 1px solid rgba(0, 0, 0, 0.4);
   width: 30%;
   padding: 0px 0px 20px 0px;
   /* padding-left: 30px; */
@@ -1258,7 +1257,7 @@ footer b {
   }
 
   .btn-subscribe {
-    margin-right: -4.3rem;
+    margin-right: -2.9rem;
     margin-top: -1.7rem;
   }
   .input {
